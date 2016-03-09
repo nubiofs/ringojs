@@ -81,6 +81,7 @@ function clone(object, cloned, recursive) {
  * Whenever a key exists in a later object that already existed in an earlier
  * object, the according value of the earlier object takes precedence.
  * @param {Object...} obj... The objects to merge
+ * @returns {Object} the merged object
  * @example const a = { "k1": "val-A" };
  * const b = { "k1": "val-B", "k2": "val-B" };
  * const c = { "k1": "val-C", "k2": "val-C" };
